@@ -78,14 +78,5 @@ namespace spaceRaceGame.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
-        /// </summary>
-        internal static System.IO.UnmanagedMemoryStream titleScreenSound {
-            get {
-                return ResourceManager.GetStream("titleScreenSound", resourceCulture);
-            }
-        }
     }
 }

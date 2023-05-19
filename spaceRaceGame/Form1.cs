@@ -97,7 +97,6 @@ namespace spaceRaceGame
 
         //sounds
         SoundPlayer levelUpSound = new SoundPlayer(Properties.Resources.levelUpSound);
-        SoundPlayer titleScreenSound = new SoundPlayer(Properties.Resources.titleScreenSound);
 
         public spaceRace()
         {
@@ -525,7 +524,6 @@ namespace spaceRaceGame
             if (state == "waiting")
             {
                 rocketShipBox.Visible = true;
-                titleScreenSound.Play();
             }
 
             if (state == "playing")
@@ -585,8 +583,6 @@ namespace spaceRaceGame
                 titleLabel.Visible = true;
                 subtitleLabel.Visible = true;
                 rocketShipBox.Visible = true;
-
-                titleScreenSound.Play();
 
                 if (p1Score > p2Score)
                 {
